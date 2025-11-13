@@ -1,33 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050505;
-  --foreground: #f5f5f5;
+	--background: #050505;
+	--foreground: #f5f5f5;
 
-  --card-bg: rgba(255, 255, 255, 0.04);
-  --card-border: rgba(255, 255, 255, 0.1);
-  --card-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+	--card-bg: rgba(255, 255, 255, 0.04);
+	--card-border: rgba(255, 255, 255, 0.1);
+	--card-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
 
-  --btn-bg: rgba(255, 255, 255, 0.06);
-  --btn-hover: rgba(255, 255, 255, 0.15);
-  --btn-border: rgba(255, 255, 255, 0.12);
+	--btn-bg: rgba(255, 255, 255, 0.06);
+	--btn-hover: rgba(255, 255, 255, 0.15);
+	--btn-border: rgba(255, 255, 255, 0.12);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter-tight), sans-serif;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-inter-tight), sans-serif;
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
+	width: 6px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #444;
-  border-radius: 20px;
+	background: #444;
+	border-radius: 20px;
 }
 
 * {
-  transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
