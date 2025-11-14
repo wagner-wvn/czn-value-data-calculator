@@ -20,5 +20,7 @@
     "epiphany": "Epifania",
     "undo": "Desfazer",
     "mitLicense": "Distribuído sob a licença MIT.",
-    "footerDisclaimer": "Esta ferramenta não é oficial e não possui vínculo com os criadores do jogo."
+    "footerDisclaimer": "Esta ferramenta não é oficial e não possui vínculo com os criadores do jogo.",
+    "selectCharacter": "Selecionar Personagem",
+    "characterLabel": "Personagem"
 }

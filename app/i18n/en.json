@@ -20,5 +20,7 @@
     "epiphany": "Epiphany",
     "undo": "Undo",
     "mitLicense": "Released under the MIT License.",
-    "footerDisclaimer": "This tool is not official and is not affiliated with the creators of the game."
+    "footerDisclaimer": "This tool is not official and is not affiliated with the creators of the game.",
+    "selectCharacter": "Select Character",
+    "characterLabel": "Character"
 }

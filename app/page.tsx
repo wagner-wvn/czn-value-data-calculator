@@ -17,7 +17,7 @@ export default function Home(){
 
 function PageContent() {
     const { t } = useLang();
-    const [tier, setTier] = useState(8);
+    const [tier, setTier] = useState(1);
 
     const tierLimits: Record<number, number> = {
         1: 30, 2: 40, 3: 50, 4: 60, 5: 70,
