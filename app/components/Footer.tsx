@@ -9,10 +9,7 @@ export default function Footer() {
 		<footer className="bg-black text-gray-400 py-10 px-4 flex flex-col items-center text-center border-t border-white/10">
 	
 			<p className="text-sm">
-					© {new Date().getFullYear()}{" "}
-				<a href="https://caminhourbano.com.br" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-gray-300 transition">
-					WVN
-				</a>
+					© {new Date().getFullYear()}{" "} Tsukhiro
 				{" — "}
 				{t("mitLicense")}
 			</p>
