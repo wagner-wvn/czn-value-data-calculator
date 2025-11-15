@@ -18,7 +18,7 @@ export default function CharacterSelectModal({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-      <div className="bg-[#1b1b1b] p-8 rounded-2xl w-full max-w-2xl shadow-lg relative">
+      <div className="bg-[#1b1b1b] p-3 rounded-2xl w-full max-w-2xl shadow-lg relative">
 
         {/* Close button */}
         <button
@@ -38,7 +38,7 @@ export default function CharacterSelectModal({
                 onSelect(name);
                 onClose();
               }}
-              className="px-4 py-3 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-white/10 rounded-xl text-left"
+              className="px-4 py-3 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-white/10 rounded-xl text-center"
             >
               {name}
             </button>
