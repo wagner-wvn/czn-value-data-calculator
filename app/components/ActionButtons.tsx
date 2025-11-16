@@ -43,8 +43,9 @@ export default function ActionButtons({onAction,removalCount,setRemovalCount,cop
 
 	const buttons = [
 		{ key: "neutralCard", value: 20 },
-		{ key: "divine", value: 20 },
+		{ key: "forbiddenCard", value: 20 },
 		{ key: "epiphany", value: 10 },
+		{ key: "divine", value: 20 },
 		{ key: "convertCard", value: 10 },
 		{ key: "eliteCard", value: 80 },
 	];
